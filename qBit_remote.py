@@ -8,8 +8,8 @@ from telegram.ext import (Updater, CommandHandler, MessageHandler, Filters, Conv
 import logging
 import re
 import json
-from qbittorrentv2 import Client
-from qbittorrentv2 import client
+from qbittorrent import Client
+from qbittorrent import client
 from requests import exceptions
 
 
